@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"> <!--app namespace declaration  -->
+
+<item
+    android:id="@+id/action_search"
+    android:orderInCategory="1"
+    android:title="@string/search_menu_string"
+    app:showAsAction="ifRoom"/> <!--tell Android that we'd like a menu item to show up as a button on the Toolbar-->
+</menu>
